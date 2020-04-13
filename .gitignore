@@ -1,2 +1,5 @@
-*
-!cypress\integration\**
+**/node_modules/
+**/plugins/
+**/support/
+**/fixtures/
+cypress.json
