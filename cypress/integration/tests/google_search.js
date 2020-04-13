@@ -6,6 +6,6 @@
         cy.get('input[type = "text"]')
         .type('Мир дикого запада').should('have.value', 'Мир дикого запада')
         .type('{enter}')
-        cy.get('a[href*=wiki')
+        cy.get('a[href*=wiki]')
     }) 
   })
